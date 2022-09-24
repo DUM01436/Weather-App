@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Whyther - Weather Webapp</title>
+    {{> head }}
+    <link rel="stylesheet" href="./css/weather.css">
+</head>
+
+<body>
+    {{> navbar }}
+
+    <section class="weather">
+        <div class="inputArea">
+            <input type="text" placeholder="Search the city" class="cityName">
+            <button type="submit" class="submitBtn">go</button>
+        </div>
+        <div class="info">
+            <div>
+                <span class="d"></span>
+                <span class="t"></span>
+            </div>
+            <div class="resultArea">
+                <span>Get temperature here</span>
+            </div>
+        </div>
+    </section>
+
+
+    {{> footer }}
+
+    <script src="./js/weather.js"></script>
+</body>
+
+</html>

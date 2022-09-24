@@ -1,0 +1,69 @@
+.weather {
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.weather .inputArea {
+    margin-bottom: 50px;
+}
+
+.weather .inputArea input {
+    height: 50px;
+    width: 350px;
+    outline: none;
+    border: 1px solid #015;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 0 25px;
+}
+
+.weather .inputArea button {
+    height: 50px;
+    width: 75px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background: #015;
+    color: #fff;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 1px;
+    margin-left: -5px;
+}
+
+.weather .info {
+    width: 300px;
+}
+
+.weather .info div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.weather .info div:nth-child(1) {
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    text-transform: uppercase;
+    background: #015;
+    color: #fff;
+}
+
+.weather .info div:nth-child(2) {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+    width: 100%;
+    border: 1px solid #015;
+}
+
+.weather .info div:nth-child(2) p:nth-child(2) {
+    font-size: 50px;
+}

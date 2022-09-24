@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Whyther - Error</title>
+    {{> head }}
+    <style>
+        .main {
+            height: calc(100vh - 80px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .main h1 {
+            font-size: 75px;
+            font-weight: 900;
+            text-transform: capitalize;
+        }
+
+        .main p {
+            margin-bottom: 30px;
+        }
+
+        .main a {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            text-transform: uppercase;
+            background: #015;
+            padding: 15px 30px;
+            border-radius: 50px;
+            margin: 0px 0;
+        }
+    </style>
+</head>
+
+<body>
+    {{> navbar }}
+
+    <section class="main">
+        <h1>page not found</h1>
+        <p>The page you are looking for dosen't exists!</p>
+        <a href="/">back to home</a>
+    </section>
+
+    {{> footer }}
+</body>
+
+</html>

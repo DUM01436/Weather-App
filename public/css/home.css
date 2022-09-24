@@ -1,0 +1,36 @@
+.hero {
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero div h1 {
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.hero div p {
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.hero div a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #015;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin: 0px 0;
+}
+
+.hero img {
+    position: absolute;
+    right: -15px;
+    width: 650px;
+}
